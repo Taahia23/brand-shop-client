@@ -63,7 +63,7 @@ const Login = () => {
 
 
     return (
-        <div className="max-w-6xl mx-auto mt-16 mb-32">
+        <div className="max-w-6xl mx-auto mt-16 mb-36">
             <h1 className="text-5xl font-bold text-center">Login now!</h1>
 
 
