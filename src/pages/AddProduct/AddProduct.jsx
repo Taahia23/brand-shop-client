@@ -20,7 +20,7 @@ const AddProduct = () => {
         console.log(newProduct);
 
         // send data to the server
-        fetch('http://localhost:5000/product', {
+        fetch('https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/product', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

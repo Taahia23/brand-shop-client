@@ -11,7 +11,7 @@ const ProductDetail = () => {
     const addToCart = () => {
       console.log(products);
        
-        fetch('http://localhost:5000/cart', {
+        fetch('https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/cart', {
           method: 'POST',
           headers: {
             "Content-type": "application/json; charset=UTF-8"

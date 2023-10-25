@@ -14,3 +14,8 @@ The website is designed to be responsive, ensuring an optimal viewing experience
 
 5. Product Detail Route: 
 Detailed product pages provide customers with comprehensive information about each item, including size options, color choices, materials, care instructions, and customer ratings
+
+
+
+client-side-live-link: https://brand-shop-be051.web.app
+

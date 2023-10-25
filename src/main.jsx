@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       {
         path: '/myCart',
         element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
-        loader: () => fetch('http://localhost:5000/cart')
+        loader: () => fetch('https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/cart')
       },
       {
         path: '/addProduct',
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       {
         path: '/updateProduct/:id',
         element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>,
-        loader : ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+        loader : ({params}) => fetch(`https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/product/${params.id}`)
       },
       {
         path: '/login',
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
       {
         path: '/detail/:id',
         element:<PrivateRoute> <ProductDetail></ProductDetail></PrivateRoute>,
-        loader:({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+        loader:({params}) => fetch(`https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/product/${params.id}`)
       },
       
       {
@@ -70,7 +70,7 @@ const router = createBrowserRouter([
       {
         path: '/brandName/:brandName',
         element: <BrandProduct></BrandProduct>,
-        loader:() => fetch('http://localhost:5000/product')
+        loader:() => fetch('https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/product')
       },
     ]
   },

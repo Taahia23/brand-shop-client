@@ -23,7 +23,7 @@ const MyCart = () => {
             if (result.isConfirmed) {
 
 
-                fetch(`http://localhost:5000/cart/${_id}`, {
+                fetch(`https://brand-shop-server-hifw7e8tu-taahia-tahsins-projects.vercel.app/cart/${_id}`, {
                     method: 'DELETE'
                    
                 })
