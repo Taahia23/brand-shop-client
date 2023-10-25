@@ -83,7 +83,7 @@ const Register = () => {
                             <a href="#" className="label-text-alt text-base link link-hover">Forgot password?</a>
                         </label>
                     </div>
-                    <div className="form-control mt-6">
+                    <div className="form-control mt-7">
                         <button className="btn btn-primary text-xl font-extrabold">Register</button>
                     </div>
                 </form>
