@@ -65,7 +65,7 @@ const BrandProduct = () => {
 
             {
                 product && product.length > 0 ? (
-                    <div className="mb-32 mt-32 grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl mx-auto">
+                    <div className="mb-36 mt-32 grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl mx-auto">
 
                         {
                             product?.map(productItem => (
