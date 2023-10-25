@@ -15,7 +15,7 @@ const Banner = () => {
             <div className="absolute top-20 md:top-40 md:left-[450px]">
                 <h1 className="text-2xl text-center text-white font-semibold border-y-white border-t-4 border-b-4 p-2 tracking-[.5em] " data-aos ="fade-down"  >STYLE SERIES</h1>
 
-                <h1 data-aos ="fade-up" className="mt-11 text-2xl md:text-7xl text-white font-bold">LOOK WE LOVE</h1>
+                <h1 data-aos ="fade-up" className="mt-10 text-2xl md:text-7xl text-white font-bold">LOOK WE LOVE</h1>
 
                 <div className="mt-20 hidden md:block">
                     <div className="input-group">
